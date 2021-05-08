@@ -1,0 +1,1 @@
+UPDATE paasee, pelihahmo, paikat SET paasee.kaytettavissa = 1 WHERE paasee.kaytettavissa = 0 AND pelihahmo.Pelaaja_Id = paikat.Pelaaja_Id AND paasee.tulee = paikat.PaikkaId
